@@ -1,0 +1,1 @@
+start ccleaner.exe /auto
