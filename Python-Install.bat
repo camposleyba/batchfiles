@@ -3,8 +3,8 @@ powershell -command curl.exe "https://www.python.org/ftp/python/3.10.4/python-3.
 
 powershell -command start-sleep -m 2000
 
-powershell -command start-process -Filepath "python-3.10.4-amd64.exe" -workingdirectory "C:\Users\%USERNAME%\Downloads" -argumentlist "/quiet, InstallAllUsers=1, PrependPath=1, Include_test=0"
+powershell -noexit -command start-process -Filepath "python-3.10.4-amd64.exe" -workingdirectory "C:\Users\%USERNAME%\Downloads" -argumentlist "/quiet, InstallAllUsers=1, PrependPath=1, Include_test=0"
 
-echo "Python successfully installed"
+ECHO Python successfully installed
 REM pip install -r C:\Users\%USERNAME%\Desktop\requirements.txt
 
