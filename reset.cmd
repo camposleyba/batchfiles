@@ -1,0 +1,1 @@
+powershell -command shutdown -r -t 1
