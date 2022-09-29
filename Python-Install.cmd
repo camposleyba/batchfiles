@@ -7,8 +7,7 @@ powershell -command start-process -Filepath "python-3.10.4-amd64.exe" -workingdi
 
 powershell -command start-sleep -m 2000
 
-powershell -command pip install -r "C:\Users\%USERNAME%\Desktop\requirements.txt"
+powershell -command pip install -r "requirements_.txt"
 
 ECHO Python successfully installed
 REM pip install -r C:\Users\%USERNAME%\Desktop\requirements.txt
-
